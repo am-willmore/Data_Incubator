@@ -1,11 +1,9 @@
 # Data_Incubator
-Contains plots for the data incubator fellowship challenge
+Contains plots for the data incubator fellowship challenge.
+An analysis of a bike lending scheme in the San Francisco Bay area.  
 
-State_death_rates.pdf
-I started with taking the data, which gives a range of mortalities, and converting that to averages by county.  
-Then I grouped the county data into states and calculated means for all states.  I plotted this as a bar graph 
-which shows that North and South Dakota, Nebraska have the lowest average age-adjusted death rates for this time 
-period whereas New Mexico, Arizona, and Kentucky have the highest drug poisoning death rates.
+monthly_trips.pdf
+I aggregated trip data to get monthly averages.  The bike usage picked up quickly from 2013 and stayed at a fairly consistent level from 2014 to 2015. Drop offs can be seen around the holidays, especially December, but also November.  
 
-New_Mexico_over_time.pdf
-Since I saw that New Mexico had the highest average drug poisoning rate in the country, I wanted to see how that had changed over time.  I took the same averages I already calculated from the range data and instead of averaging all the years together I looked at the averages per year.  This plot shows that the rate of drug poisonings has sharply increased from 1999 to 2015.
+bike_availability_by_station.pdf
+This analysis used data available about the status of each station where bikes could be loaned out or returned.  I looked at the average bike availability for each station.  Some places regularly run out of bikes, whereas others do not.  The places with the highest demand are in San Francisco whereas stations outside of the city such as San Jose or Redwood City are less likely to run out of bikes.
